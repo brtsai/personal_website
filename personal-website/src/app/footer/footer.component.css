@@ -1,0 +1,27 @@
+.hr {
+  height: 1px;
+  width: 90%;
+  border-color: #3982b7;
+}
+
+.footer {
+  width:100%;
+  position: absolute;
+  height: 120px;
+  bottom: 0;
+  left: 0;
+}
+
+.footer-title {
+  font-family: "Segoe UI";
+  text-align: center;
+}
+
+.footer-elem {
+  text-align: center;
+  color: white;
+}
+
+.fa {
+  font-size: 24px;
+}

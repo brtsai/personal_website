@@ -1,0 +1,51 @@
+.title {
+  text-align: center;
+  color: #3982b7;
+}
+.title:link {
+    text-decoration: none;
+}
+.title:visited {
+    text-decoration: none;
+}
+.title:hover {
+    text-decoration: none;
+}
+.title:active {
+    text-decoration: none;
+}
+
+.navbar {
+  left: 5%;
+  width: 90%;
+}
+.nav.navbar-nav {
+  position: relative;
+}
+.navbar > ul {
+  left: 50%;
+}
+.nav.navbar-nav > li {
+  right: 50%;
+  text-align: center;
+  position: relative;
+  font-size: 18px;
+  display: inline;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+    background-color: transparent;
+}
+
+.hr-top {
+  height: 1px;
+  width: 90%;
+  border-color: #3982b7;
+  margin-bottom: -5px;
+}
+
+.hr-bottom {
+  height: 1px;
+  width: 90%;
+  border-color: #3982b7;
+  margin-top: -15px;
+}

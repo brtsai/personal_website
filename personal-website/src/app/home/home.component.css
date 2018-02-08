@@ -1,0 +1,23 @@
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 125px;
+  min-height: 100%;
+}
+
+.square {
+  margin-left: 5%;
+  height: 600px;
+  width: 90%;
+  background: black;
+}
+
+.hi {
+  text-align: center;
+  margin-top: -325px;
+  padding-bottom: 250px;
+  font-family: "Segoe UI";
+  font-size: 50px;
+  color: white;
+  font-weight: 100;
+}
