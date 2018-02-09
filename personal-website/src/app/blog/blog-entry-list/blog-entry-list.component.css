@@ -1,0 +1,20 @@
+.blog-title {
+  margin-left: 50%;
+  text-align: center;
+  display: inline;
+}
+
+.blog-entries {
+  margin-left: 5%;
+  width: 90%;
+}
+
+.blog-list {
+  list-style-type: none;
+  text-align: center;
+  display: inline;
+}
+.blog-list>li {
+  margin: 0 0 1% 0;
+}
+
