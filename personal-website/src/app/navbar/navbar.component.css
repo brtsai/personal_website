@@ -36,6 +36,12 @@
     background-color: transparent;
 }
 
+@media (max-width: 978px) {
+    .navbar-nav {
+      margin-left: 0;
+    }
+}
+
 .hr-top {
   height: 1px;
   width: 90%;
