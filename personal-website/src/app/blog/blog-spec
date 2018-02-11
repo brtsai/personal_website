@@ -1,0 +1,56 @@
+Goals:
+
+User Stories:
+
+  ***Be able to add new blog entries by creating subdirectories in a blog-entries directory
+     Example directory:
+      blog-entries
+      --- blog-entry-one
+      --- --- blog-entry-one.html
+      --- --- blog-entry-one.css
+      --- blog-entry-two
+      --- --- blog-entry-two.html
+      --- --- blog-entry-two.css
+
+  ***I want to be able to draft a blog entry in Codepen, then copy the html that makes up
+     the post over to a .html file for that specific blog entry, and the css used to a .css
+     file for that blog entry.
+     The html and css should then be loaded as though they were part of the html and css
+     files for a component representing that blog entry when routing to the address for that 
+     specific blog entry.
+
+Developer Stories:
+
+  ***The blog model should be able to ls for non '.' and '..' folders in a local blog-entries
+     directory and create a list of subdirectories, each representing a blog entry
+     Each entry should then have its '-'-delimeter separated word converted to title case
+     The model's list of title case converted entries should be made available to the view
+     as a map relating blog entry titles to subdirectory names.
+     Example directory and subsequent mapping:
+      blog-entries
+      --- blog-entry-one
+      --- --- blog-entry-one.html
+      --- --- blog-entry-one.css
+      --- blog-entry-two
+      --- --- blog-entry-two.html
+      --- --- blog-entry-two.css
+      
+      Model's blog entry mapping
+      { "Blog Entry One" => :blog-entry-one, "Blog Entry Two" => :blog-entry-two}
+
+  ***The blog model, when routed with a blog entry, displays that blog entry, styled with
+     its appropriate css.
+     Example route:
+     blog/entry/blog-entry-one
+     renders as
+      ----------------
+        navbar stuff
+      ----------------
+      [renders blog
+      entry from html
+      styled with the
+      appropriate css]
+      ----------------
+        footer stuff
+
+
